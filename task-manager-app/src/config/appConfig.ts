@@ -2,7 +2,7 @@
 
 export const APP_CONFIG = {
     api: {
-        baseUrl: 'http://192.168.70.75:3000/api',
+        baseUrl: 'http://localhost:3000/api',
         endpoints: {
             tasks: '/tasks',
         },
