@@ -46,4 +46,4 @@ const Filter: React.FC<FilterProps> = ({
     );
 };
 
-export default React.memo(Filter);
+export default Filter;
