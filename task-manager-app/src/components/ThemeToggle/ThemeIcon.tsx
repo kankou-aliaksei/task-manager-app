@@ -10,7 +10,7 @@ const ThemeIcon: React.FC<ThemeIconProps> = ({ theme }) => {
     return theme.name === 'default' ? (
         <MdSunny size={DEFAULT_THEME_ICON_SIZE} style={{ color: theme.colors.primary }} />
     ) : (
-        <FaMoon size={DEFAULT_THEME_ICON_SIZE} style={{ color: theme.colors.secondary }} />
+        <FaMoon style={{ color: theme.colors.secondary }} />
     );
 };
 
