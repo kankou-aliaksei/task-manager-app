@@ -133,7 +133,6 @@ const TaskAddForm: React.FC<TaskAddFormProps> = ({ onSuccess, onCancel }) => {
                 onChange={(e) => handleDateChange(e.target.value ? new Date(e.target.value) : null)}
                 icons={icons}
             />
-            <FormError error={errors.dueDate} />
 
             <DatePickerModal
                 isOpen={isModalOpen}

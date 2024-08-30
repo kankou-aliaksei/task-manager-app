@@ -14,7 +14,6 @@ export const taskValidationSchema = Yup.object().shape({
         value: Yup.string().required('Priority is required'),
         label: Yup.string().required(),
     }),
-    dueDate: Yup.date().nullable(),
 });
 
 type TaskFieldValue = string | Date | { value: string; label: string } | undefined | null;

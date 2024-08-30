@@ -136,9 +136,7 @@ const TaskEditForm: React.FC<TaskEditFormProps> = ({ task, toggleEdit, onSuccess
                 value={formatDateIgnoringTimezone(formData.dueDate)}
                 onChange={(e) => handleDateChange(e.target.value ? new Date(e.target.value) : null)}
                 icons={icons}
-                required
             />
-            <FormError error={errors.dueDate}/>
 
             <DatePickerModal
                 isOpen={isModalOpen}
